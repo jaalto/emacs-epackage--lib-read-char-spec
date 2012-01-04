@@ -1,0 +1,21 @@
+Package: lib-read-char-spec
+Section: extensions
+License: GPL-3
+Depends: emacs (>= 22)
+Status: stable unmaintained
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Edward O'Connor <hober0@gmail.com>
+Upstream-Bugs:
+Vcs-Type: http
+Vcs-Url: http://edward.oconnor.cx/elisp/read-char-spec.el
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/
+Commentary: read-char-spec.el
+Description: library of generalized y-or-n-p function
+ Provide a generalization of the `y-or-n-p' UI for when you have
+ other possible answers. `read-char-spec' is to `read-char' as
+ `format-spec' is to `format'.
+ .
+ Note: 2012-01-04 the code hasn't been touched since 2009.
